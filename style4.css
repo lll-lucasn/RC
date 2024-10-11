@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FF7E5F, #765DFF);
+    color: #fff; /* Texto branco para contrastar com o fundo */
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.rc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 21px;
+}
+
+@media screen {
+    
+.eu{
+   font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: justify;
+   color: rgb(0, 238, 247);
+   font-size: 20.2px;
+}
+}
+@media only screen and (max-width: 480px) {
+    eu{
+        position: fixed;
+    }
+}
+
+@media screen {
+    .logo{
+      image-resolution: unset;
+      image-orientation: flip;
+    }
+}
